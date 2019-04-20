@@ -1,8 +1,11 @@
 $(function(){
 
+// When any button is clicked, change the background color of all bulbs to black.
   function clearLights(){
-    $(".button").css("backgroundColor", "black");
+    $(".bulb").css("backgroundColor", "black");
   }
+
+  $(".button").click(clearLights);
 
 // When stopButton is clicked, change the background color of the stopLight to red.
   function illuminateRed(){
