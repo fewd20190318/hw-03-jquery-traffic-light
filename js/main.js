@@ -1,28 +1,20 @@
-$('stopButton').click(illuminateRed);
-$('slowButton').click(illuminateYellow);
-$('goButton').click(illuminateGreen);
+$("#stopButton").click(illuminateRed);
+$("#slowButton").click(illuminateYellow);
+$("#goButton").click(illuminateGreen);
 
 
 
 function illuminateRed() {
-  clearLights();
-  $('stopLight').style.backgroundColor = "red";
+
+  $("body").attr("class", "red");
 }
 
-// function illuminateYellow() {
-//   clearLights();
-//   document.getElementById('slowLight').style.backgroundColor = "yellow";
-// }
-//
-// function illuminateGreen() {
-//   clearLights();
-//   document.getElementById('goLight').style.backgroundColor = "green";
-// }
+function illuminateYellow() {
 
+  $("body").attr("class", "yellow");
+}
 
-function clearLights(){
-  $('stopLight').stlye.backgroundColor ="black";
+function illuminateGreen() {
 
-
-
+  $("body").attr("class", "green");
 }
