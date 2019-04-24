@@ -24,9 +24,10 @@ $("#goLight").css("background-color", "green");
 $("#goButton").click(goButton);
 
 function clearLights() {
-$("#stopLight").css("background-color", "black" )
-$("#slowLight").css("background-color", "black" )
-$("#goLight").css("background-color", "black" )
+$(".bulb").css("background-color", "black" )
+// $("#slowLight").css("background-color", "black" )
+// $("#goLight").css("background-color", "black" )
+
 }
 
 
