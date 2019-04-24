@@ -41,13 +41,13 @@ h1 {
 }
 
 .red {
-  background: red;
+  background-color: red;
 }
 
 .yellow{
-  background: yellow;
+  background-color: yellow;
 }
 
 .green {
-  background: green;  
+  background-color: green;
 }

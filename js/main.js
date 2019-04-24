@@ -9,17 +9,17 @@ $("#goButton").click(illuminateGreen);
 
 function illuminateRed(red) {
   clearLights();
-  $("body").attr("class", "red");
+  $("stopButton").attr("class", "red");
 }
 
 function illuminateYellow() {
   clearLights()
-  $("body").attr("class", "yellow");
+  $("slowLight").attr("class", "yellow");
 }
 
 function illuminateGreen() {
   clearLights();
-  $("body").attr("class", "green");
+  $("goButton").attr("class", "green");
 }
 
 
