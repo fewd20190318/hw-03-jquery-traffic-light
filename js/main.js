@@ -6,24 +6,20 @@ $(document).ready(function(){
 }
 
 function illuminateRed(){
-  $('body').attr('class', 'red');
+  $('body').attr('id', 'red');
 }
 
 function illuminateYellow(){
-  $('body').attr('class', 'yellow');
+  $('body').attr('id', 'yellow');
 }
 
 function illuminateGreen(){
-  $('body').attr('class', 'green');
+  $('body').attr('id', 'green');
 }
 
 
-  // Original JS -----
-  // function clearLights() {
-  //   document.getElementById('stopLight').style.backgroundColor = "black";
-  //   document.getElementById('slowLight').style.backgroundColor = "black";
-  //   document.getElementById('goLight').style.backgroundColor = "black";
-  // }
+// Original JS -----
+
 
 // document.getElementById('stopButton').onclick = illuminateRed;
 // document.getElementById('slowButton').onclick = illuminateYellow;
