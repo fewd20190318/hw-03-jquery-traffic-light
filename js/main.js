@@ -7,7 +7,7 @@ $("#goButton").click(illuminateGreen);
 
 
 
-function illuminateRed() {
+function illuminateRed(red) {
   clearLights();
   $("body").attr("class", "red");
 }
