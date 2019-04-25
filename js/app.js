@@ -9,8 +9,6 @@ $(document).ready(function(){
     clearLights();
     $('#stopLight').css('background-color', 'red');
 
-    // $('#slowLight').css('background-color', 'black');
-    // $('#goLight').css('background-color', 'black');
   }
 
   function illuminateYellow(){
