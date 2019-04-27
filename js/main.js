@@ -1,6 +1,7 @@
 $(function(){
 
   $('#goButton').click(illuminatedGreen);
+  $('#stopButton').click(illuminatedRed);
 
 
   function illuminatedGreen(){
@@ -8,4 +9,19 @@ $(function(){
 
     $("#goLight").toggleClass("green");
   }
+
+  function illuminatedRed(){
+    $("#stopLight").toggleClass("red-background")
+
+
+
+  }
+
+
+
+
+
+
+
+
 });
