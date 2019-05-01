@@ -6,20 +6,30 @@ $(function(){
 
 
   function illuminatedGreen(){
-    $("#goLight").toggleClass("green");
+  //    clearLights();
+      $("#goLight").addClass("green-background");
   }
 
   function illuminatedRed(){
-    $("#stopLight").toggleClass("red-background");
+  //  clearLights();
+    $("#stopLight").addClass("red-background");
   }
 
   function  illuminatedYellow(){
-    $("#slowLight").toggleClass("yellow-background");
+  //  clearLights();
+    $("#slowLight").addClass("yellow-background");
+  }
+
+/*
+  function  clearLights(){
+    console.log("am i working?");
+    $("#slowLight").addClass("black-background");
+    $("#stopLight").addClass("black-background");
+    $("#goLight").addClass("black-background");
 
   }
 
-
-
+*/
 
 
 

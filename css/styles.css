@@ -48,6 +48,10 @@ h1 {
   background-color: yellow;
 }
 
-.green{
+.green-background{
   background-color: green;
+}
+
+.black-background{
+  background-color: black;
 }
